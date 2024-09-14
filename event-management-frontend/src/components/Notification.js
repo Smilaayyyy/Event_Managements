@@ -18,7 +18,7 @@ function Notification() {
 
   return (
     <div>
-      <h2>Notifications</h2>
+      <h2></h2>
       <ul>
         {notifications.map((notif, index) => (
           <li key={index}>{notif.message}</li>
